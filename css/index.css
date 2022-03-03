@@ -234,35 +234,67 @@ nav .close{}
     background:url('../images/icon/html5.png') no-repeat center;
 }
 #box04>div>div>ul>li:nth-child(2){
-    background-image:url('../images/icon/bootstrap.png');
-}
+    background-image:url('../images/icon/bootstrap.png');}
 #box04>div>div>ul>li:nth-child(3){
-    background-image:url('../images/icon/css3.png');
-}
+    background-image:url('../images/icon/css3.png');}
 #box04>div>div>ul>li:nth-child(4){
-    background-image:url('../images/icon/git.png');
-}
+    background-image:url('../images/icon/git.png');}
 #box04>div>div>ul>li:nth-child(5){
-    background-image:url('../images/icon/javascript.png');
-}
+    background-image:url('../images/icon/javascript.png');}
 #box04>div>div>ul>li:nth-child(6){
-    background-image:url('../images/icon/jquery.png');
-}
+    background-image:url('../images/icon/jquery.png');}
 #box04>div>div>ul>li:nth-child(7){
-    background-image:url('../images/icon/npm.png');
-}
+    background-image:url('../images/icon/npm.png');}
 #box04>div>div>ul>li:nth-child(8){
-    background-image:url('../images/icon/react.png');
-}
+    background-image:url('../images/icon/react.png');}
 #box04>div>div>ul>li:nth-child(9){
-    background-image:url('../images/icon/adobe-xd.png');
-}
+    background-image:url('../images/icon/adobe-xd.png');}
 #box04>div>div>ul>li:nth-child(10){
-    background-image:url('../images/icon/sass.png');
-}
+    background-image:url('../images/icon/sass.png');}
 #box04>div>div>ul>li:nth-child(11){
-    background-image:url('../images/icon/vs-code.png');
+    background-image:url('../images/icon/vs-code.png');}
+#box04>div>div>ul>li:nth-child(12){background-image:none;}
+
+/* box05 */
+#box05{
+    background-color:#c3c3c3;
+    color:#fff;
+    text-align:center;
+    padding-bottom:30px;
 }
-#box04>div>div>ul>li:nth-child(12){
-    background-image:none;
+#box05>a{
+    color:#fff;
 }
+#box05>div{}
+#box05>div>.text{
+    width:60%;
+    margin: 0 auto 50px;
+}
+/* tab 메뉴 파트 */
+#box05>div>ul{
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+}
+#box05>div>ul>li{
+    border-left:1px solid #fff;
+    padding: 0 10px;
+    line-height:1;
+}
+/* 전체 : 버튼 */
+#box05 .box{}
+#box05 #show{}
+#box05 #all{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+#box05 #all>figure{
+    width:calc(33.3333% - 18px);
+}
+#box05 #all>figure>img{
+    margin-bottom:50px;
+}
+/* 버튼 군단 */
+#box05 .box>.prev{}
+#box05 .box>.next{}
