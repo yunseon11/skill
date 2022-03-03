@@ -1,18 +1,111 @@
 @charset "utf-8";
+/* raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+img{
+    max-width:100%;
+}
+body{
+    font:18px/30px Arial,sans-serif;
+}
 .hide{
     width:0; height:0;
     font-size:0;line-height:0;
     position:absolute;
     visibility:hidden;
 }
-
-/*  */
+/* layout ->  */
+/* 공통 부분 */
 header>div,article>div{
     width:1320px;
     margin:0 auto;
-    background-color:pink;
+    /* background-color:pink; */
+}
+#box02, #box03, #box04, #box05, #box06{
+    padding:85px 0;
+}
+div>h3{
+    font-size:48px;
+    text-align:center;
+    margin-bottom:35px;
+}
+.title{
+    font-size:30px;
+    margin-bottom:50px;
+}
+.text{
+    margin-bottom:50px;
 }
 
-.title{}
-.text{}
+/* header */
+header{
+    padding:18px 0;
+    background-color:#000;
+    /* 태블릿 모바일 버튼 */
+    position:relative;
+}
+header>div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+header h1>a{
+    font-family:'나눔고딕',Arial,sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+}
+nav{}
+nav>ul{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+nav>ul>li{
+    margin-left:40px;
+}
+nav>ul>li>a{
+    font-weight:bold;
+    color:#fff;
+}
+
+/* header 버튼 */
+#btn{
+    width:30px;
+    height:30px;
+    position:absolute;
+    right:18px;
+    top:18px;
+    background-color:red;
+    display:none;
+}
+nav .close{}
+
+/* #box01 */
+#box01{
+    width:auto; 
+    height:calc(100vh - 70px);
+    background-color:green;
+    position:relative;
+}
+#box01>h2{
+    width:675px;
+    height:285px;
+    left:50%; top:50%;
+    position:absolute;
+    font-family:;
+    font-size:70px;
+    color:#fff;
+}
+#box01>ul{
+    width:;
+    height:100%;
+}
+#box01.no{}
+#box01>ul>li{
+    width:;
+    height:100%;
+    text-indent:-9999px;
+}
+#box01 .prev{}
+#box01 .next{}
