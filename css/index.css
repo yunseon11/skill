@@ -175,7 +175,7 @@ nav .close{}
 #box02>div>dl:nth-child(3){background-image:url('../images/header_icon_03.png');}
 #box02>div>dl>dt{
     font-family:'Raleway',sans-serif;
-    font-size:60px;
+    font-size:20px;
     margin-bottom:50px;
 }
 #box02>div>dl>dd{
