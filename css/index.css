@@ -211,3 +211,58 @@ nav .close{}
     border-radius:27px;
     color:#fff;
 }
+
+/* box04 */
+#box04{}
+#box04>div{}
+#box04>div>div{
+    display:flex;
+    flex-wrap:wrap;
+}
+#box04>div>div>div{
+    width:50%;
+}
+#box04>div>div>ul{
+    width:50%;
+}
+#box04>div>div>ul>li{
+    width:80px ; height:80px;
+    margin: 0 8px 16px;
+    border:2px solid #cac6c4;
+    float:left;
+    text-indent:-99999px;
+    background:url('../images/icon/html5.png') no-repeat center;
+}
+#box04>div>div>ul>li:nth-child(2){
+    background-image:url('../images/icon/bootstrap.png');
+}
+#box04>div>div>ul>li:nth-child(3){
+    background-image:url('../images/icon/css3.png');
+}
+#box04>div>div>ul>li:nth-child(4){
+    background-image:url('../images/icon/git.png');
+}
+#box04>div>div>ul>li:nth-child(5){
+    background-image:url('../images/icon/javascript.png');
+}
+#box04>div>div>ul>li:nth-child(6){
+    background-image:url('../images/icon/jquery.png');
+}
+#box04>div>div>ul>li:nth-child(7){
+    background-image:url('../images/icon/npm.png');
+}
+#box04>div>div>ul>li:nth-child(8){
+    background-image:url('../images/icon/react.png');
+}
+#box04>div>div>ul>li:nth-child(9){
+    background-image:url('../images/icon/adobe-xd.png');
+}
+#box04>div>div>ul>li:nth-child(10){
+    background-image:url('../images/icon/sass.png');
+}
+#box04>div>div>ul>li:nth-child(11){
+    background-image:url('../images/icon/vs-code.png');
+}
+#box04>div>div>ul>li:nth-child(12){
+    background-image:none;
+}
