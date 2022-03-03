@@ -153,3 +153,33 @@ nav .close{}
     border:1px solid #fff;
     margin-top:-20px;
 }
+
+/* box02 */
+#box02{}
+#box02>div{
+    width:980px;
+    margin: 0 auto;
+    background-color:green;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+#box02>div>dl{
+    width:268px;
+    padding:140px 0 54px;
+    text-align:center;
+    color:#fff;
+    background:#9c9491 url('../images/header_icon_01.png') no-repeat center 62px;
+}
+#box02>div>dl:nth-child(2){background-image:url('../images/header_icon_02.png');}
+#box02>div>dl:nth-child(3){background-image:url('../images/header_icon_03.png');}
+#box02>div>dl>dt{
+    font-family:'Raleway',sans-serif;
+    font-size:60px;
+    margin-bottom:50px;
+}
+#box02>div>dl>dd{
+    width:80%;
+    margin: 0 auto;
+}
+
