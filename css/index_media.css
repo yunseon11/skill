@@ -1,1 +1,26 @@
 @charset "utf-8";
+
+@media screen and (min-width:1330px){
+
+    /*  */
+}
+
+@media screen and (max-width:1329px) and (min-width:1150px){
+
+    /*  */
+}
+
+@media screen and (max-width:1149px) and (min-width:990px){
+
+    /*  */
+}
+
+@media screen and (max-width:989px) and (min-width:580px){
+
+    /*  */
+}
+
+@media screen and (max-width:579px) and (min-width:230px){
+
+    /*  */
+}
