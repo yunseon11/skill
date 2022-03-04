@@ -298,3 +298,96 @@ nav .close{}
 /* 버튼 군단 */
 #box05 .box>.prev{}
 #box05 .box>.next{}
+
+/* box06 */
+#box06{
+    background-color:#9c9491;
+    color:#fff;
+}
+#box06>a{
+    color:#fff;
+}
+#box06>div{}
+#box06>div>div{
+    width:1100px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+#box06>div>div>div{
+    width:50%;
+}
+#box06>div>div>div .title{
+    margin-bottom:20px;
+}
+#box06>div>div>div .text{
+    width:80%;
+}
+#box06>div>div>div dl{
+    margin-bottom:20px;
+}
+#box06>div>div>div dl>dt{
+    padding-left:37px;
+    background:url('../images/contact_icon_01.png') no-repeat left center;
+}
+#box06>div>div>div dl:nth-child(2)>dt{
+    background-image:url('../images/contact_icon_02.png');
+}
+#box06>div>div>div dl:nth-child(3)>dt{
+    background-image:url('../images/contact_icon_03.png');
+}
+
+#box06>div>div>div dl>dd{
+    padding-left:37px;
+}
+#box06>div>div>form{
+    width:50%;
+    padding:0 45px;
+    box-sizing:border-box;
+    color:#717171;
+}
+#box06>div form>fieldset{
+    background-color:#fff;
+    padding:20px;
+}
+#box06>div form>fieldset>ul{
+    /* background-color:green; */
+}
+#box06>div form>fieldset>ul>li{
+    margin-bottom:20px;
+}
+#box06>div form>fieldset>ul>li>label{
+    display:block;
+    line-height:1;
+    margin-bottom:6px;
+}
+#box06>div form>fieldset>ul>li>input{
+    width:100%;
+    box-sizing:border-box;
+    border:none;
+    background-color:#ddd;
+    line-height:43px;
+    border-radius:4px;
+    text-indent:15px;
+}
+#box06>div form>fieldset>ul>li>input>textarea{
+    width:100%;
+    height:120px;
+    box-sizing:border-box;
+    border:none;
+    background-color:#ddd;
+    line-height:43px;
+    border-radius:4px;
+    text-indent:15px;
+}
+#box06>div form>fieldset>p{}
+#box06>div form>fieldset>p>input{
+    width:100%;
+    box-sizing:border;
+    height:43px;
+    border:none;
+    border-radius:4px;
+    background-color:#ddd;
+    color:#777;
+}
+
