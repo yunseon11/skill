@@ -77,6 +77,28 @@
     nav .close{
         display:block;
     }
+    /* box01 */
+    #box01{
+        height:100vh;
+    }
+    #box01>h2{
+        width:100%;
+        left:50%; top:50%;
+        margin:-140px 0 0 0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-family:'Raleway',Arial,sans-serif;
+        font-size:70px;
+        font-weight:lighter;
+        color:#fff;
+        line-height:70px;
+        text-align:center;
+    }
+    #box01>ul>li{
+        background-size:auto 100%;
+    }
+    /* box02 */
     /*  */
 }
 
