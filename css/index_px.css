@@ -91,7 +91,7 @@ nav .close{
 #box01{
     width:auto; 
     height:calc(100vh - 70px);
-    background-color:green;
+    /* background-color:green; */
     position:relative;
     overflow:hidden;
 }
