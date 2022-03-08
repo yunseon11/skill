@@ -310,27 +310,101 @@
     }
     /* box02 */
     #box02>div{
-        padding-left:0;
-        width:auto;
-        margin: 0 auto;
+        width:90vw;
         display:block;
-        justify-content:space-between;
     }
     #box02>div>dl{
         width:auto;
-        padding:0px 0 0px;
+        padding:25px 0 25px;
         text-align:center;
         background-image:none;
+        background-color:#9c9491;
+        margin-bottom:25px;
     }
+    
     #box02>div>dl:nth-child(2){background-image:none;}
     #box02>div>dl:nth-child(3){background-image:none;}
-    #box02>div>dl>dt{
-        margin-bottom:0 auto;
+    #box02>div>dl:last-child{
+        margin-bottom:0;
     }
-    #box02>div>dl>dd{
-        width:auto;
-        margin: 0 auto;
+    #box02>div>dl>dt{
+        margin-bottom:20px;
     }
     /* box03 */
+    #box03>div>div{
+        width:auto;
+       padding-left:0;
+    }
+    #box03>div>div>figure{
+        position:static;
+        text-align:center;
+        margin-bottom:30px;
+    }
+    #box03>div>div>div{
+        width:90vw;
+        margin: 0 auto;
+    }
+    #box03>div>div>div.title{
+        text-align:center;
+    }
+    #box03 .btn{
+        text-align:right;
+    }
+    /* box04 */
+    #box04>div>div{
+        width:90vw;
+        display:block;
+    }
+    #box04>div>div>div{
+        width:auto;
+    }
+    #box04>div>div>div .title{
+        text-align:center;
+    }
+    #box04>div>div>div .text{
+        text-align:center;
+        width:auto;
+    }
+    #box04>div>div>ul{
+        width:80vw;
+        overflow:hidden;
+        margin:0 auto;
+    }
+    /* box05 */
+    #box05 .box{
+        position:relative;
+    }
+    #box05 #show{
+        width:80vw;
+        margin: 0 auto;
+    }
+    #box05 #all{
+        width:240vw;
+    }
+    #box05 #all>figure{
+        width:30vw;
+        margin-bottom:0;
+        margin:0 5vw;
+    }
+    #box05 #all>figure>img{
+        margin-bottom:10;
+    }
+    /* 버튼 군단 */
+    #box05 .box>.prev{
+        width:5vw; height:5vw;
+        position:absolute;
+        left:2.5vw; 
+        top:50%;
+        margin-top:-2.5vw;
+        background-color:red;
+    }
+    #box05 .box>.next{
+        width:5vw; height:5vw;
+        position:absolute;
+        right:2.5vw; 
+        top:50%;
+        margin-top:-2.5vw;
+        background-color:red;
+    }
     /*  */
 }
