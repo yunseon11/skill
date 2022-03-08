@@ -136,7 +136,43 @@
         overflow:hidden;
     }
     /* box05 */
-    
+    #box05 .box{
+        position:relative;
+
+    }
+    #box05 #show{
+        width:80vw;
+        margin:0 auto;
+    }
+    #box05 #all{
+        width:160vw;
+        /* display:flex;
+        flex-wrap:wrap;
+        justify-content:space-around; */
+    }
+    #box05 #all>figure{
+        width:24vw;
+        margin-bottom:0;
+        margin:0 1.3333333vw 0px;
+    }
+    #box05 #all>figure>img{
+        margin-bottom:50px;
+    }
+    /* 버튼 군단 */
+    #box05 .box>.prev{
+        position:absolute;
+        top:50%;
+        left:3vw;
+        width:3vw; height:3vw;
+        background-color:red;
+    }
+    #box05 .box>.next{
+        position:absolute;
+        top:50%;
+        left:3vw;
+        width:3vw; height:3vw;
+        background-color:red;
+    }
     /*  */
 }
 
