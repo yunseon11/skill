@@ -218,6 +218,97 @@
 }
 
 @media screen and (max-width:579px) and (min-width:230px){
-
+    /* 공통부분 */
+    #box02, #box03, #box04, #box05, #box06{
+        padding:40px 0;
+    }
+    div>h3{
+        font-size:35px;
+        text-align:center;
+        margin-bottom:35px;
+    }
+    .title{
+        font-size:30px;
+        margin-bottom:30px;
+    }
+    .text{
+        margin-bottom:30px;
+    }
+    /* header */
+    header{
+        position:fixed;
+        width:100%;
+        padding:10px 0;
+        background-color:#000;
+        z-index:700;
+    }  
+    header>div{
+        display:block;
+        text-align:center;
+    }
+    header h1>a{
+        font-weight:normal;
+    }
+    /* nav */
+    nav{
+        position:fixed;
+        left:-100%; 
+        top:0;
+        width:100%; height:100%;
+        background-color:rgba(0,0,0,0.5);
+        padding:10vw;
+        box-sizing:border-box;
+        z-index:900;
+    }
+    nav>ul{
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:center;
+        /* background-color:pink; */
+    }
+    nav>ul>li{
+        margin-left:0px;
+        width:100%;
+        border-bottom:1px solid #fff;
+    }
+    nav>ul>li>a{
+       line-height:80px;
+    }
+    #btn{
+        display:block;
+    }
+    nav .close{
+        display:block;
+    }
+    /* box01 */
+    #box01{
+        /* width:auto;  */
+        height:calc(100vh - 54x);
+        /* background-color:green; */
+    }
+    #box01>h2{
+        position:absolute;
+        width:100%;
+        height:auto;
+        border:1px solid #fff;
+        left:50%; top:50%;
+        margin: -70px 0 0 0;
+        font-size:35px;
+    }
+    #box01>ul>li{
+        background:url('../images/blue.jpg') no-repeat center top;
+        background-size:auto 100%;
+    }
+    #box01 .prev{
+        width:5vw; height:5vw;
+        left:5vw; 
+        margin-top:-20px;
+    }
+    #box01 .next{
+        width:5vw; height:5vw;
+        right:50px;
+        margin-top:2.5vw;
+    }
+    /* box02 */
     /*  */
 }
