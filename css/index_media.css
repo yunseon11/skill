@@ -115,6 +115,105 @@
     #box03 .title{
         text-align:center;
     }
+    /* box04 */
+    #box04>div>div{
+        display:block;
+    }
+    #box04>div>div>div{
+        width:88vw;
+        margin:0 auto;
+        background-color:pink;
+    }
+    #box04>div>div>div .text{
+        width:auto;
+    }
+    #box04>div>div>div.title{
+        text-align:center;
+    }
+    #box04>div>div>ul{
+        width:60vw;
+        margin: 0 auto;
+        overflow:hidden;
+    }
+    /* box05 */
+    #box05 .box{
+        position:relative;
+
+    }
+    #box05 #show{
+        width:80vw;
+        margin:0 auto;
+    }
+    #box05 #all{
+        width:160vw;
+        /* display:flex;
+        flex-wrap:wrap;
+        justify-content:space-around; */
+    }
+    #box05 #all>figure{
+        width:24vw;
+        margin-bottom:0;
+        margin:0 1.3333333vw 0px;
+    }
+    #box05 #all>figure>img{
+        margin-bottom:50px;
+    }
+    /* 버튼 군단 */
+    #box05 .box>.prev{
+        position:absolute;
+        top:50%;
+        left:3vw;
+        width:3vw; height:3vw;
+        background-color:red;
+    }
+    #box05 .box>.next{
+        position:absolute;
+        top:50%;
+        left:3vw;
+        width:3vw; height:3vw;
+        background-color:red;
+    }
+    /* box06 */
+    #box06>div>div{
+        width:88vw;
+        margin: 0 auto;
+        display:block;
+    }
+    #box06>div>div>div{
+        width:auto;
+        margin-bottom:45px;
+    }
+    #box06>div>div>div .title{
+        text-align:center;
+        margin-bottom:20px;
+    }
+    #box06>div>div>div .text{
+        text-align:center;
+        width:auto;
+    }
+    #box06>div>div>div dl{
+        width:76vw;
+        margin-bottom:0px;
+        margin:0 auto 5px;
+    }
+    #box06>div>div>div dl>dt{
+        display:inline-block;
+    }
+    #box06>div>div>div dl>dd{
+        padding-left:0px;
+        display:block;
+    }
+    #box06>div>div>form{
+        width:76vw;
+        padding:0 0px;
+        margin: 0 auto;
+    }
+    #box06>div form>fieldset{
+        background-color:#fff;
+        padding:20px;
+    }
+    
+    
     /*  */
 }
 
